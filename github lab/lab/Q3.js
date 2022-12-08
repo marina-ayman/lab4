@@ -11,9 +11,13 @@ function overr(x){
 
 // console.log(x.getAttribute("value"))
 if(i<x.getAttribute("value"))
- { i++; 
+ { 
+   for(i=0;i<x.getAttribute("value");i++)
+   {
+
+
   
-  icon[i].className=" fa-regular fa-star";
+  icon[i].className=" fa-regular fa-star";   }
  // x.style.color="red"
  }
 else if(i>=x.getAttribute("value")){
